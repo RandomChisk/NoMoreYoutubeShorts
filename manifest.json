@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "version": "1",
+    "name": "NoMoreYoutubeShorts",
+    "description": "Youtube Shorts sucks",
+    "author": "RandomChisk",
+    "browser_action": {
+   	 "default_title": "NMYS",
+   	 "default_popup": "index.html",
+   	 "default_icon": "goal.png"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "webRequest",
+            "https://www.youtube.com/*",
+        "webRequestBlocking"
+    ]
+}
